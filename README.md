@@ -15,6 +15,13 @@ cd ai-reviewer-lab
 
 Open the folder in Claude Code. That is it — no installs, no configuration.
 
+### Using GitHub Copilot (VS Code agent mode)
+
+This lab also works with GitHub Copilot in VS Code agent mode. Enable these two settings:
+
+1. **Chat: Use Claude Md File** — turn this **on** so Copilot reads `CLAUDE.md` instructions from your workspace.
+2. **Chat: Agent Skills Locations** — add `.claude/skills` so Copilot can discover the skills in this repo.
+
 ---
 
 ## Project structure
